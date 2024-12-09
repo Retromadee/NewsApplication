@@ -11,7 +11,7 @@ public class MobileUser implements Observer{
 
     @Override
     public void update(Subject subject, String news){
-        System.out.println("Mobile User " + news);
+        System.out.println(name+"Received via mobile app" + news);
     }
 
 
