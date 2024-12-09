@@ -35,7 +35,7 @@ public NewsAgent(){
 }
 
 public void displayNews(String news){
-    System.out.println("Breaking News : "+ news);
+//    System.out.println("Breaking News : " + news);
     notifyObserver(news);
 }
 

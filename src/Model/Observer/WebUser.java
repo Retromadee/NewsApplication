@@ -11,6 +11,6 @@ public class WebUser implements Observer{
     
     @Override
     public void update(Subject subject, String news){
-        System.out.println(name + "Received via Web" + news);
+        System.out.println(name + " Received via Web:-  " + news);
     }
 }
